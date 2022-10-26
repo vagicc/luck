@@ -4,7 +4,7 @@
 <head>
     <base href="<?= base_url('static/green/'); ?>/" />
     <title><?= $detail->title ?? '技术学习页（Learn）' ?></title>
-    <meta name="keyword" content="RUST;PHP;XUbuntu">
+    <meta name="keyword" content="<?= $detail->seo_keywords ?? 'RUST;PHP;XUbuntu' ?>">
     <meta name="description" content="<?= $detail->summary ?? 'elapse.date站点主要是RUST、PHP、LINUX(XUbuntu)技术分享记录' ?>">
     <meta name="author" content="<?= $detail->username ?? '临来笑笑生' ?>">
     <meta charset="utf-8" />
