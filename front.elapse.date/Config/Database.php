@@ -14,7 +14,7 @@ class Database extends Config
      * and Seeds directories.
      *
      * @var string
-     */
+     */ 
     public $filesPath = APPPATH . 'Database' . DIRECTORY_SEPARATOR;
 
     /**

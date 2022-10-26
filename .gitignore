@@ -1,5 +1,9 @@
 .env
 writable/cache/menus_1
 writable/logs/*.log
-# writable/session/
 writable/debugbar/*.json
+admin.elapse.date/Config/App.php
+admin.elapse.date/Config/Database.php
+front.elapse.date/Config/App.php
+front.elapse.date/Config/Database.php
+writable/session/*

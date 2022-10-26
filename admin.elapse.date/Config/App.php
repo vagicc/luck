@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'https://admin.elapse.up/';
+    public $baseURL = 'https://admin.elapse.up/'; 
 
     /**
      * --------------------------------------------------------------------------
