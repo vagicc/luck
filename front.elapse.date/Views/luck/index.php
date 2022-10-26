@@ -21,7 +21,7 @@
         $('#fg_seach').submit(function() {
             var serach = $("input[name='search']").val();
             if (serach.length > 0) {
-                alert('不为空，可跳转');
+                // alert('不为空，可跳转');
                 var url = 'https://google.elapse.date/search?q=' + serach + '+site%3Aelapse.date';
                 window.location.href = url;
             } else {

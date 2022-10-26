@@ -3,7 +3,10 @@
 
 <head>
     <base href="<?= base_url('static/green/'); ?>/" />
-    <title>技术学习页（Learn）</title>
+    <title><?= $detail->title ?? '技术学习页（Learn）' ?></title>
+    <meta name="keyword" content="RUST;PHP;XUbuntu">
+    <meta name="description" content="<?= $detail->summary ?? 'elapse.date站点主要是RUST、PHP、LINUX(XUbuntu)技术分享记录' ?>">
+    <meta name="author" content="<?= $detail->username ?? '临来笑笑生' ?>">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
