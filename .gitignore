@@ -1,0 +1,5 @@
+.env
+writable/cache/menus_1
+writable/logs/*.log
+# writable/session/
+writable/debugbar/*.json
