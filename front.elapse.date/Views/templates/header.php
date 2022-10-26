@@ -33,11 +33,12 @@
                                     <li><a href="javascript:;">Debian</a></li>
                                     <li><a href="javascript:;">Ubuntu</a></li>
                                     <li><a href="javascript:;">CentOS</a></li>
+                                    <li><a href="javascript:;">Warp</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li><a href="<?= site_url('article') ?>" class="button">Linux</a></li>
+                    <li><a href="<?= site_url('article') ?>" class="button">Rust</a></li>
                     <li><a href="javascript:;">PHP</a></li>
                     <li><a href="javascript:;">登錄</a></li>
                 </ul>

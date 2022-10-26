@@ -6,15 +6,31 @@
             <h2>旺财狗</h2>
             <p>能帮助你、我、他快速搜索查找！真一只乖狗狗！！</p>
         </header>
-        <form method="post" action="#" class="container 50%">
+        <form method="post" action="#" id="fg_seach" class="container 50%">
             <div class="row uniform 50%">
-                <div class="8u 12u$(xsmall)"><input type="text" name="email" id="email" placeholder="旺财，快去搜索一下！！" /></div>
+                <div class="8u 12u$(xsmall)"><input type="text" name="search" id="email" placeholder="旺财，快去搜索一下！！" /></div>
                 <div class="4u$ 12u$(xsmall)"><input type="submit" value="放狗，搜一下" class="fit special" /></div>
             </div>
         </form>
     </div>
 </section>
+<script src="assets/js/jquery.min.js"></script>
 
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#fg_seach').submit(function() {
+            var serach = $("input[name='search']").val();
+            if (serach.length > 0) {
+                alert('不为空，可跳转');
+                var url = 'https://google.elapse.date/search?q=' + serach + '+site%3Aelapse.date';
+                window.location.href = url;
+            } else {
+                alert('搜索内容不能为空');
+            }
+            return false;
+        });
+    });
+</script>
 <div id="main" class="wrapper style1">
 
 
