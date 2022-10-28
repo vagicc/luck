@@ -2,11 +2,11 @@
     <footer id="footer">
         <ul class="icons">
             <li><a href="//google.elapse.date/" target="_blank" class="icon alt fa-google"><span class="label">旺财搜索</span></a></li>
-            <li><a href="javascript:;" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            <li><a href="javascript:;" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="https://www.rust-lang.org/" target="_blank" class="icon alt fa-registered"><span class="label">Rust</span></a></li>
             <li><a href="https://github.com/" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
             <li><a href="https://www.google.com/" target="_blank" class="icon alt fa-google"><span class="label">google</span></a></li>
-            <li><a href="//gwmc.site" class="icon alt fa-car"><span class="label">跟我买车</span></a></li>
+            <li><a href="http://www.postgres.cn/" target="_blank" class="icon alt fa-paypal"><span class="label">postgres</span></a></li>
+            <li><a href="//gwmc.site" target="_blank" class="icon alt fa-car"><span class="label">跟我买车</span></a></li>
         </ul>
         <ul class="copyright">
             <li>&copy; 版权ss所有: 随X记 </li>
