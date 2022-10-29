@@ -4081,7 +4081,7 @@
 
 		@media screen and (max-width: 480px) {
 
-			ul.pagination li:nth-child(n+2):nth-last-child(n+2) {
+			ul.pagination li:nth-child(n+3):nth-last-child(n+3) {
 				display: none;
 			}
 

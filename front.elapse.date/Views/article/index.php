@@ -54,6 +54,11 @@
                         <tfoot>
                             <tr>
                                 <td colspan="2" style="text-align:center">
+                                    <?= $pager->links() ?>
+                                </td>
+                            </tr>
+                            <!-- <tr>
+                                <td colspan="2" style="text-align:center">
                                     <ul class="pagination">
                                         
                                         <li><a href="javascript:;" class="page active">1</a></li>
@@ -95,61 +100,13 @@
                                         <li><a href="#" class="page">10</a></li>
                                     </ul>
                                 </td>
-                            </tr>
+                            </tr> -->
                         </tfoot>
                     </table>
                 </div>
 
             </section>
-
-            <h3>技术派文章大全</h3>
-            <div class="row">
-                <div class="6u 12u(xsmall)">
-
-                    <h4>最新发表</h4>
-                    <ul>
-                        <?php foreach ($list as $key => $value) : ?>
-                            <!-- <a href="<?= site_url('article/detail/' . $value->id) ?>" title="<?= $value->title ?>" target="_blank" style="color:#b7fb24 !important">
-                            <li><?= $value->title ?></li>
-                            </a> -->
-                            <a href="<?= site_url('article/detail/' . $value->id) ?>" title="<?= $value->title ?>" target="_blank" style="color:rgba(183, 251, 36, 0.75);border-bottom:none;">
-                                <li><?= $value->title ?></li>
-                            </a>
-                        <?php endforeach; ?>
-                    </ul>
-
-                    <h4>文章列表</h4>
-                    <ul class="alt">
-                        <?php foreach ($list as $key => $value) : ?>
-                            <li><a href="<?= site_url('article/detail/' . $value->id) ?>" title="<?= $value->title ?>" target="_blank" style="color:rgba(255, 255, 255, 0.75);border-bottom:none;"><?= $value->title ?></a></li>
-                        <?php endforeach; ?>
-                        <li>
-                            <div class="col-md-6">
-                                <div class="pull-right">
-                                    <?= $pager->links() ?>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                </div>
-                <div class="6u 12u(xsmall)">
-
-                    <h4>访问量前十</h4>
-                    <ol>
-                        <?php foreach ($list as $key => $value) : ?>
-                            <a href="<?= site_url('article/detail/' . $value->id) ?>" title="<?= $value->title ?>" target="_blank" style="color:rgba(255, 255, 255, 0.75)">
-                                <li><?= $value->title ?></li>
-                            </a>
-                        <?php endforeach; ?>
-                    </ol>
-
-
-
-                </div>
-            </div>
+ 
         </section>
 
     </div>

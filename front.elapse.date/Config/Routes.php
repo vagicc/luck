@@ -39,6 +39,8 @@ $routes->setAutoRoute(true);   //开启自动路由，不然每个请求都要�
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Luck::index');
 
+// 重定向至URI,为使用URL页数
+$routes->addRedirect('article', 'article/index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

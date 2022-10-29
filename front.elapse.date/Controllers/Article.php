@@ -24,10 +24,13 @@ class Article extends MyController
 		$articleModel->orderBy('id desc');
 
 		$this->data['total'] = $articleModel->countAllResults(false);
-		$this->data['list'] = $articleModel->paginate(config('Pager')->perPage);
+		$configPage=config('Pager')->perPage;
+		// var_dump($configPage);exit;
+		// URI 字段（segment）为页码
+		$this->data['list'] = $articleModel->paginate(config('Pager')->perPage,'default',null,3);
 		$this->data['pager'] = $articleModel->pager;
 
-		return $this->view('article/index');
+		return $this->view('article/index'); 
 	}
 
 	public function detail($id)

@@ -31,7 +31,7 @@
                         <ul>
                             <li><a href="javascript:;">Windows</a></li>
                             <li>
-                                <a href="<?= site_url('article') ?>">Linux</a>
+                                <a href="<?= site_url('article/index') ?>">Linux</a>
                                 <ul>
                                     <li><a href="javascript:;">Debian</a></li>
                                     <li><a href="javascript:;">Ubuntu</a></li>
@@ -41,7 +41,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="<?= site_url('article') ?>" class="button">Rust</a></li>
+                    <li><a href="<?= site_url('article/index') ?>" class="button">Rust</a></li>
                     <li><a href="javascript:;">PHP</a></li>
                     <li><a href="javascript:;">登錄</a></li>
                 </ul>

@@ -67,9 +67,17 @@
                         <tfoot>
                             <tr>
                                 <td colspan="2" style="text-align:center">
-                                    <?= $pager->links() ?>
+                                <center>
+                                     <div class="3u 6u(medium) 12u$(xsmall)">
+										 
+                                        <ul class="actions vertical small">
+											<li><a href="<?= site_url('article/index/2') ?>" class="button small fit">查看更多</a></li>
+										</ul>
+									</div>
+                                </center>
                                 </td>
                             </tr>
+                            
                             <!-- <tr>
                                 <td colspan="2" style="text-align:center">
                                     <ul class="pagination">
