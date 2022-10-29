@@ -4059,7 +4059,7 @@
 			}
 
 				ul.pagination li > .page.active {
-					background-color: #f56a6a;
+					background-color: green !important;
 					color: #ffffff !important;
 				}
 
